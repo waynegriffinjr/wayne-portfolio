@@ -1,0 +1,69 @@
+<!DOCTYPE html>       <!-- Tells the browser: "This is modern HTML" -->
+<html lang="en">      <!-- The root element. lang="en" says it's in English -->
+<head>
+    <!-- Metadata that doesn't appear on the page itself -->
+    <meta charset="UTF-8">                 <!-- Character encoding -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wayne Griffin's Portfolio</title>           <!-- Shows in the browser tab -->
+    <link rel="stylesheet" href="portfolio-style.css">
+</head>
+<body>
+    <header>
+        <h1>Wayne Griffin Jr.</h1>
+        <p><strong>Full-Stack AI Engineer</strong></p>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="skills">Skills</a>
+        <a href="contact">Contact</a>
+    </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I'm a career changer transitioning into AI engineering. Previously, I worked in addiction counseling for 7 years, where I developed strong problem-solving, communication skills, and compassion for client needs. Now, I'm building scalable AI-powered applications designed to solve real world problems with user-centered UIs.</p>
+            <p>Currently building a AI dashboard frontend to connect to my FastAPI backend that I recently completed.</p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+          <div class="project-grid">
+            <article>  <!-- Each project is a self-contained article -->
+                <h3>Student Grade Tracker</h3>
+                <p>A command-line Python application that reads student data from CSV files, calculates averages, and generates summary reports. Built with proper error handling and virtual environment management.</p>
+            </article>
+
+            <article>
+                <h3>Data Processing Pipeline</h3>
+                <p>An OOP-based data pipeline that cleans messy datasets using pandas, performs analysis with grouping and aggregation, and generates visualizations with matplotlib.</p>
+            </article>
+            <article>
+                <h3>AI-Ready Task Manager API</h3>
+                <p>A FastAPI task-management API with JWT authentication, bcrypt password hashing, Pydantic validation, SQLAlchemy persistence, user-scoped access controls, filtering, pagination, and automated pytest coverage.</p>
+            </article>
+        </section>
+          </div>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Python (pandas)</li>
+                <li>SQL & SQLAlchemy ORM</li>
+                <li>FastAPI & REST API Design</li>
+                <li>Git & GitHub</li>
+                <li>Testing with Pytest</li>
+            </ul>
+        </sction>
+    </main>
+
+    <footer id="contact">
+        <h2 class="highlight">Contact</h2>
+
+        <p>Email: <a href="mailto:waynegriffinjr@icloud.com"> waynegriffinjr@icloud.com</a></p>
+
+        <p>GitHub: <a href="https://github.com/waynegriffinjr" target=_blank">github.com/waynegriffinjr</a></p>
+        <p id="ccopy">&copy; 2026 Wayne Griffin Jr.</p>
+
+    </footer>
+</body>
+</html>
