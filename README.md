@@ -1,6 +1,6 @@
 # Wayne Griffin Jr. – Portfolio
 
-Backend Engineer | AI-Powered Applications
+Software Engineer | AI-Powered Applications
 
 I'm a career changer transitioning into software engineering after 7 years in addiction counseling and public health. I build practical, full-stack applications with a focus on clean APIs, data pipelines, and LLM integration.
 
