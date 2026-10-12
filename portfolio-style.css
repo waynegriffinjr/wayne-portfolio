@@ -1,7 +1,7 @@
 /* --- Reset and Base Styles --- */
 
 *{
-    box-sizing: boder-box; /* Padding and border included in width */
+    box-sizing: border-box; /* Padding and border included in width */
     margin: 0;  /* Remove default margins */
     padding: 0;  /* Remove default padding */
 }
